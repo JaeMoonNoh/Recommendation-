@@ -1,6 +1,17 @@
 # Crawling description
 
 # 1. from selenium import webdriver
+python에서 웹 크롤링을 하기 위한 도구로 selenium을 사용해 크롤링을 진행  
+selenium을 사용하기위해서 pip로 selenium을 설치하고 브라우저에 맞는 driver설치  
+-crome driver를 설치  
+-crome 버전확인  
+-https://chromedriver.chromium.org/downloads  
+-crome 버전에 맞는 driver설치  
+-본인 os에 맞는 버전 설치
+-본인 경로 입력  
+-driver = webdriver.Chrome('본인 경로')  
+-driver.get('웹사이트주소')
+
 # 2. data = request.get('네이버웹툰사이트')
 # 3. soup = BeautifulSoup(data,'html.parser')
 ![html_](https://user-images.githubusercontent.com/62277037/130057480-e82524bf-fd74-4171-9fbd-b84a8787748f.PNG)
@@ -15,4 +26,4 @@
 # 7. 장르 줄거리 작가
 ![네이버웹툰크롤링 줄거리,장르](https://user-images.githubusercontent.com/62277037/130057516-7a14a23c-8226-4dc5-8159-1b8713a28ce2.PNG)
 # 8. 결과
-
+![결과](https://user-images.githubusercontent.com/62277037/130059389-84a3f6a2-6aae-44b7-acd8-e666ba71cde5.PNG)
