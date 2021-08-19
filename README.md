@@ -2,11 +2,11 @@
 
 ### Word2Vec
 
--Word2Vec에 대한 설명
+-Word2Vec에 대한 설명  
 
 ### Doc2Vec
 
--Doc2Vec에 대한 설명
+-Doc2Vec에 대한 설명  
 
 ### Naver Webtoon crawling
 
@@ -14,10 +14,10 @@
 
 ### Naver Webtoon Recommendation
 
--사용된 라이브러리 정리
+-사용된 라이브러리 정리  
 -개선점
 
 ### Etc.
 
--tokenize
+-tokenize  
 -etc...
