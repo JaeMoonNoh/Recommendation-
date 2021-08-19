@@ -11,21 +11,30 @@ selenium을 사용하기위해서 pip로 selenium을 설치하고 브라우저�
 ## Crome 버전확인
 #### 방법
 chrome://settings/help 에 들어가서 확인
+
+
 ![크롬버전](https://user-images.githubusercontent.com/62277037/130061068-52f51618-4990-42b5-bfd3-4812d904bdfa.PNG)
 
 ## Crome 버전에 맞는 driver설치  
 #### https://chromedriver.chromium.org/downloads  
 
+
 ![크롬_버전_release](https://user-images.githubusercontent.com/62277037/130061070-d10bdd6b-12a6-422d-9892-357a2e2c24b5.PNG)  
 
 
 ## Os에 맞는 버전 설치  
+
+
 ![버전설치](https://user-images.githubusercontent.com/62277037/130061073-0298b31b-4e30-44a7-99d2-ad2cfa2039c6.PNG)
 
 ## Crome Driver 경로 입력  
 -driver = webdriver.Chrome('본인 경로')  
 -driver.get('웹사이트주소')  
+
+
 ![드라이버경로설정](https://user-images.githubusercontent.com/62277037/130061075-688826ec-29df-4e7c-837b-913d003c3049.PNG)  
+
+
 #### 진행이 잘 안될 시에는  
 #### 1. '본인경로' 앞에 r'본인경로'  
 #### 2. \대신 /사용  
@@ -59,10 +68,14 @@ day = soup.find_all('ul', {'class':'category_tab'} 부분에 요일이 들어가
 
 
 ![네이버웹툰크롤링 페이지클릭하면서데이터수집](https://user-images.githubusercontent.com/62277037/130057512-0e40754e-08c1-482a-b818-cecf59085676.PNG)
+
+
 #### 장르, 줄거리, 작가 부분  
- h2 테그 안에 class : wrt_nm 부분에 작가  
- span 부분 class : genre 부분에 장르  
- p 테그 부분 줄거리
+작가 부분 : 2 테그 안에 class : wrt_nm 부분에 작가  
+장르 부분 : span 부분 class : genre 부분에 장르  
+줄거리 부분 : p 테그 부분 줄거리  
+
+
 ![네이버웹툰크롤링 줄거리,장르](https://user-images.githubusercontent.com/62277037/130057516-7a14a23c-8226-4dc5-8159-1b8713a28ce2.PNG)
 
 
