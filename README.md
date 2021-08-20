@@ -17,6 +17,10 @@
 -사용된 라이브러리 정리  
 -개선점
 
+### Data Processing
+
+-데이터 처리 어떻게 했는지
+
 ### Etc.
 
 -tokenize  
