@@ -36,6 +36,8 @@ Word2Vec은 두가지 방식이 존재합니다.
 
 ### Doc2Vec
 
+Word2Vec의 확장해서 사용
+
 -Doc2Vec에 대한 설명  
 
 ### Naver Webtoon crawling
