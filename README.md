@@ -42,7 +42,8 @@ Word2Vec의 확장해서 사용
 
 ### Naver Webtoon crawling
 
--어떤 방식으로 crawling 했는지 간략하게 설명
+- 제목, 작가, 스토리, 장르 등을 크롤링하기
+- Doc2Vec에 필요한 열만 남기기
 
 ### Naver Webtoon Recommendation
 
