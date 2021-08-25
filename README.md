@@ -38,7 +38,15 @@ Word2Vec은 두가지 방식이 존재합니다.
 
 Word2Vec의 확장해서 사용
 
--Doc2Vec에 대한 설명  
+#### [Distributed Memory : DM] 
+같은 paragraph에서 생성된 훈련 데이터에서는 하나의 paragraph vectors로 공유하며 paragraph vector는 훈련시 문서의 주제를 잡습니다.  
+ - paragraph id(주제를 나타내는 한 단락)를 단어 하나를 통해 문서를 훈련하는 데이터 사용  
+ - 이 paragraph vector와 앞의 단어들을 사용해서 다음에 나오는 단어 예측,유추  
+ - window라는 정해진 사이즈의 단어들을 context(문맥정보)를 사용해 맨 앞에서부터 한 단어씩 옆으로 이동
+
+#### [Distributed bag of words : DBOW]
+ - context 단어를 사용하지 않고, paragraph id만 가지고 paragraph에서 나오는 단어를 랜덤하게 예측하는 것
+
 
 ### Naver Webtoon crawling
 
