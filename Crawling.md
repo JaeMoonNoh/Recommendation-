@@ -44,7 +44,7 @@ chrome://settings/help 에 들어가서 확인
 # 2. 네이버 웹툰 사이트 데이터 요청하기  
 
 
-#### data = request.get('네이버웹툰사이트').text : text tag부분을 제외하고 text부분만을 추출한 후에
+#### data = request.get('네이버웹툰사이트').text : text부분만을 추출한 후에
 #### soup = BeautifulSoup(data,'html.parser') : html.parser를 통해서 html부분만을 파싱해줍니다.  
 
 
